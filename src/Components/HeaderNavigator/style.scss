@@ -1,0 +1,13 @@
+.header-navigator {
+  .logo {
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header-navigator {
+    .logo {
+      height: 40px;
+    }
+  }
+}

@@ -10,8 +10,9 @@ import Container from "@mui/material/Container";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
+import "./style.scss";
 
+// catagories
 const pages = ["Home", "About", "Projects", "Articles", "Contact"];
 
 function HeaderNavigator() {
@@ -28,7 +29,7 @@ function HeaderNavigator() {
   };
 
   return (
-    <AppBar position="sticky">
+    <AppBar position="sticky" className="header-navigator">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -48,7 +49,11 @@ function HeaderNavigator() {
           >
             <a href="/">
               <div className="py-3 px-5">
-                <img height="60px" src="./assets/images/Logo.svg" alt="LOGO" />
+                <img
+                  className="logo"
+                  src="./assets/images/Logo.svg"
+                  alt="LOGO"
+                />
               </div>
             </a>
           </Typography>
@@ -108,7 +113,11 @@ function HeaderNavigator() {
           >
             <a href="/">
               <div className="py-3">
-                <img height="60px" src="./assets/images/Logo.svg" alt="LOGO" />
+                <img
+                  className="logo"
+                  src="./assets/images/Logo.svg"
+                  alt="LOGO"
+                />
               </div>
             </a>
           </Typography>
