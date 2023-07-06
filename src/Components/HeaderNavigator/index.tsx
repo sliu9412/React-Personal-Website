@@ -10,12 +10,15 @@ import Container from "@mui/material/Container";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
+import { useNavigate } from "react-router-dom";
 import "./style.scss";
 
 // catagories
 const pages = ["Home", "About", "Projects", "Articles", "Contact"];
 
 function HeaderNavigator() {
+  const navigate = useNavigate();
+
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
     null
   );
@@ -24,8 +27,9 @@ function HeaderNavigator() {
     setAnchorElNav(event.currentTarget);
   };
 
-  const handleCloseNavMenu = () => {
+  const handleCloseNavMenu = (target: string) => {
     setAnchorElNav(null);
+    navigate(target);
   };
 
   return (
@@ -88,7 +92,12 @@ function HeaderNavigator() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
+                <MenuItem
+                  key={page}
+                  onClick={() => {
+                    handleCloseNavMenu(page);
+                  }}
+                >
                   <Typography textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
@@ -125,7 +134,9 @@ function HeaderNavigator() {
             {pages.map((page) => (
               <Button
                 key={page}
-                onClick={handleCloseNavMenu}
+                onClick={() => {
+                  handleCloseNavMenu(page);
+                }}
                 sx={{ my: 2, color: "white", display: "block" }}
               >
                 {page}
