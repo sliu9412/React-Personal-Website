@@ -1,0 +1,9 @@
+{
+    "Caption": {
+        "backgroundImagePath": "./assets/images/HomePageCarousel.jpg",
+        "mainCaption": "Open to Work Now!",
+        "subCaption": "Available for Co-op Fall 2023",
+        "subCaption2": "Target Positions",
+        "subCaption2HTML": "Web Developer<br />Mobile App Developer<br />UX designer<br />"
+    }
+}

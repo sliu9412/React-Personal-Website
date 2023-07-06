@@ -1,0 +1,41 @@
+.slide-container {
+  height: 550px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  .caption-box {
+    color: #fff;
+    .main-caption {
+      font-size: 80px;
+      margin-bottom: 40px;
+    }
+    .sub-caption {
+      font-size: 30px;
+    }
+    .sub-caption-2 {
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .slide-container {
+    height: 350px;
+    .caption-box {
+      color: #fff;
+      .main-caption {
+        font-size: 40px;
+        margin-bottom: 20px;
+      }
+      .sub-caption {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      .sub-caption-2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
