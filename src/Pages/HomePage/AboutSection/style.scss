@@ -1,0 +1,14 @@
+@import "../../../variable.scss";
+.about-section {
+  text-align: justify;
+}
+
+@media screen and (max-width: $breakpoint) {
+  .about-section {
+    text-align: left;
+    .about-section-btn-wrap {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
