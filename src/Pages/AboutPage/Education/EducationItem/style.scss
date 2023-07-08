@@ -1,0 +1,11 @@
+.education-item {
+  display: flex;
+  img {
+    width: 100%;
+  }
+  .details {
+    .degree {
+      font-style: italic;
+    }
+  }
+}

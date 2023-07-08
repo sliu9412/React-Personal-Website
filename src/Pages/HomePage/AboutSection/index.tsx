@@ -2,7 +2,7 @@ import { Button, Container, Grid } from "@mui/material";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import React, { useEffect, useState } from "react";
 import "./style.scss";
-import HomeSectionHeading from "../HomeSectionHeading";
+import HomeSectionHeading from "../../../Components/SectionHeading";
 import { useNavigate } from "react-router-dom";
 
 export interface IAboutSection {
@@ -30,7 +30,7 @@ function AboutSection() {
   return (
     <div className="about-section my-lg-5">
       <Container maxWidth="lg">
-        <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+        <Grid container spacing={4}>
           <Grid item xs={12} lg={7}>
             <HomeSectionHeading heading="About Me" />
             <img

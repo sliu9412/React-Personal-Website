@@ -1,0 +1,15 @@
+@import "../../../../variable.scss";
+.skill-item {
+  h3 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: $breakpoint) {
+  .skill-item {
+    h3 {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+  }
+}

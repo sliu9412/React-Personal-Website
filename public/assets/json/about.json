@@ -1,0 +1,154 @@
+{
+  "AboutMySelf": {
+    "title": "About MySelf",
+    "leftImagePath": "./assets/images/Avator.jpg",
+    "rightHTML": "<p>I have a strong background in web development and ample experience in creating responsive websites and applications, thanks to my postgraduate studies in Mobile Solution Development at Conestoga College.</p><p>I possess a wide range of technical skills, including proficiency in <b>HTML, CSS, TypeScript, JavaScript, C#, JAVA, Python, PHP, Swift and SQL</b>. Additionally, I am familiar with various software such as <b>Git, Visual Paradigm, Adobe Photoshop, Illustrator and XD</b>, which I have extensively used throughout my academic and professional journey.</p>"
+  },
+  "Highlight": {
+    "title": "Highlight",
+    "list": [
+      "Familiar with HTML, CSS, JavaScript and related frameworks like React, Angular and CSS preprocessors, such as Sass and Less with strong understanding of web responsive design, WCAG and SEO principles.",
+      "Mater RESTful API design pattern and authentication and authorization mechanisms like JSON web token.",
+      "Understand the process of system analysis and design, from requirements obtain, UML diagram create to component develop.",
+      "Understand agile development methodology, Co-development experience using Git as a version management tool."
+    ]
+  },
+  "Techniques": {
+    "title": "Programming Languages",
+    "list": [
+      {
+        "name": "HTML5",
+        "imagePath": "./assets/images/techniques/HTML.jpg",
+        "desc": "The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser."
+      },
+      {
+        "name": "JavaScript",
+        "imagePath": "./assets/images/techniques/Javascript.jpg",
+        "desc": "JavaScript is used to create interactive front end web applications. It can also be used on the server side such as Node.js."
+      },
+      {
+        "name": "Python",
+        "imagePath": "./assets/images/techniques/python.jpg",
+        "desc": "Python is an interpreted programming language that is used for web development, scientific computing, data analysis and other applications."
+      },
+      {
+        "name": "C#",
+        "imagePath": "./assets/images/techniques/Csharp.jpg",
+        "desc": "C# is developed by Microsoft as part of its .NET initiative. It can build Windows desktop applications and web applications."
+      },
+      {
+        "name": "Java",
+        "imagePath": "./assets/images/techniques/JAVA.jpg",
+        "desc": "Java is designed to be platform-independent, meaning that Java programs can run on any device or operating system installed JVM."
+      },
+      {
+        "name": "Swift",
+        "imagePath": "./assets/images/techniques/Swift.jpg",
+        "desc": "Swift is developed by Apple Inc. It is a modern, safe, and efficient language for developing software for Apple platforms."
+      },
+      {
+        "name": "PHP",
+        "imagePath": "./assets/images/techniques/php.jpg",
+        "desc": "PHP is a popular open-source scripting language primarily used for building dynamic websites and web applications."
+      },
+      {
+        "name": "SQL",
+        "imagePath": "./assets/images/techniques/SQL.jpg",
+        "desc": "SQL is a programming language specifically designed for database, allowing users to create, modify, and retrieve data efficiently."
+      }
+    ]
+  },
+  "Education": {
+    "title": "Education",
+    "list": [
+      {
+        "name": "Conestoga College",
+        "imagePath": "./assets/images/education/conestogac.jpg",
+        "time": "2023-2024",
+        "degree": "Post Graduate Certificate",
+        "desc": "Conestoga College Institute of Technology and Advanced Learning is a public college located in Kitchener, Ontario, Canada. Established in 1967, Conestoga serves approximately 23,000 registered students through campuses and training centres in Kitchener, Waterloo, Cambridge, Guelph, Stratford, Ingersoll and Brantford with an enrolment of 11,000 full-time students, 30,000 part-time students, and 3,300 apprenticeship students."
+      },
+      {
+        "name": "Neusoft University",
+        "imagePath": "./assets/images/education/neu.jpg",
+        "time": "2014-2018",
+        "degree": "Bachelor Degree",
+        "desc": "Chengdu Neusoft University, founded and organized by Neusoft Holdings, is one of the full-time undergraduate institutions approved by the Ministry of Education. CNU runs its education programs with a main focus on engineering and a minor in management and arts. Besides, CNU is also the State Cultivation Base of IT Talents, China Torch Program Chengdu Digital Entertainment Industry (Talent Training) Park and China Digital Media Industry (Talent Training) Park."
+      }
+    ]
+  },
+  "Skills": {
+    "title": "Tool Proficiency",
+    "list": [
+      {
+        "name": "Visual Studio Code",
+        "rating": 4.5
+      },
+      {
+        "name": "Git",
+        "rating": 5
+      },
+      {
+        "name": "Docker",
+        "rating": 4
+      },
+      {
+        "name": "Adobe Photoshop",
+        "rating": 5
+      },
+      {
+        "name": "Adobe Illustrator",
+        "rating": 4.5
+      },
+      {
+        "name": "Adobe XD",
+        "rating": 5
+      },
+      {
+        "name": "Chrome DevTools",
+        "rating": 4
+      },
+      {
+        "name": "Webpack",
+        "rating": 3.5
+      },
+      {
+        "name": "Figma",
+        "rating": 4
+      },
+      {
+        "name": "Visual Paradigm",
+        "rating": 4
+      },
+      {
+        "name": "Android Studio",
+        "rating": 5
+      },
+      {
+        "name": "Xcode",
+        "rating": 5
+      }
+    ]
+  },
+  "WorkingExperience": {
+    "title": "Working Experience",
+    "list": [
+      {
+        "name": "Chinagreenair Ltd",
+        "imagePath": "./assets/images/workingExperience/greenair.jpg",
+        "type": "Permanent Full-time",
+        "time": "Mar 2020 - Dec 2022",
+        "location": "Chengdu, China",
+        "desc": "<p>Developed ERP system for the organization, including content updates, account administration, order history management and so on.</p><p>Developed responsive websites for organization, to display the products, services, project cases for clients.</p><p>Identified product’s requirements and participated in planning and execution of projects. Supported maintenance programming development for web pages and applications.</p>"
+      },
+      {
+        "name": "Hengsu Tech Ltd",
+        "imagePath": "./assets/images/workingExperience/hengsu.jpg",
+        "type": "Permanent Full-time",
+        "time": "Jun 2018 - Jan 2020",
+        "location": "Chengdu, China",
+        "desc": "<p>Developed customized websites for clients by CMS, such as Dede, Empire etc.</p><p>Translate designs and wireframes into high-quality code via HTML, CSS and JavaScript.</p><p>Maintained existing code and functionality, modified, and made changes according to customers’ requirements.</p>"
+      }
+    ]
+  }
+}

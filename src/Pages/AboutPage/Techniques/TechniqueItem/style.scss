@@ -1,0 +1,32 @@
+@import "../../../../variable.scss";
+.technique-item {
+  .item-box {
+    display: flex;
+    .image-box {
+      flex: 1;
+      height: 140px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .desc-box {
+      flex: 2;
+      h3 {
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint) {
+  .technique-item {
+    .item-box {
+      .desc-box {
+        h3 {
+          font-size: 18px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}
