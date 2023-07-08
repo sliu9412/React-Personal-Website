@@ -1,0 +1,27 @@
+@import "../../../variable.scss";
+.project-item {
+  .item-card {
+    min-height: 290px;
+    &:hover {
+      transition: ease-in-out all 0.6s;
+      background-color: $secondary-theme-color;
+      .view-project {
+        color: $theme-color;
+      }
+    }
+    .item-image {
+      width: 40px;
+    }
+    .project-title {
+      min-height: 53px;
+      font-size: 22px;
+      -webkit-line-clamp: 2;
+      @include ellipsis_box;
+    }
+    .project-description {
+      min-height: 72px;
+      -webkit-line-clamp: 3;
+      @include ellipsis_box;
+    }
+  }
+}

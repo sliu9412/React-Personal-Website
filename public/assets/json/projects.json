@@ -1,0 +1,50 @@
+[
+  {
+    "link": "https://github.com/sliu9412/React-Personal-Website",
+    "icon": "./assets/images/project/typescript.jpg",
+    "title": "Data driven React Personal Website",
+    "desc": "This a template project built by react, the data is store in JSON files, the main content of pages can be modified easily."
+  },
+  {
+    "link": "https://github.com/sliu9412/Lab3_Asp.net_CRUD_User_API",
+    "icon": "./assets/images/project/csharp.jpg",
+    "title": "Asp.net CRUD User API",
+    "desc": "This is the project for the Lab3 for Conestoga College PROG8185-23S-Sec1-Web Technologies. It's a simple web api application for user accounts CRUD."
+  },
+  {
+    "link": "https://github.com/sliu9412/PHP-Store-Apis-AS2-PROG8185-23S-Sec1-Web-Technologies",
+    "icon": "./assets/images/project/php.jpg",
+    "title": "PHP Online store API project",
+    "desc": "This is the project for the Assignment2 for Conestoga College PROG8185-23S-Sec1-Web Technologies, it's build by Siyu Liu, Eugenio Contreras Lizana, Asad Ullah Ashraf and Akshat Arora."
+  },
+  {
+    "link": "https://github.com/sliu9412/React-Store-AS1-PROG8185-23S-Sec1-Web-Technologies",
+    "icon": "./assets/images/project/typescript.jpg",
+    "title": "TypeScript React Online Store",
+    "desc": "This is the project for the Assignment1 for Conestoga College PROG8185-23S-Sec1-Web Technologies. It's build by Siyu Liu, Eugenio Contreras Lizana, Asad Ullah Ashraf and Akshat Arora."
+  },
+  {
+    "link": "https://github.com/sliu9412/PROG8185-23S-Sec1-Web-Technologies",
+    "icon": "./assets/images/project/php.jpg",
+    "title": "PHP Lab2 Mysql PDO",
+    "desc": "PROG8185-23S-Sec1-Web Technologies' Lab2, for exercising how to manipulate local mysql databases by php PDO."
+  },
+  {
+    "link": "https://github.com/sliu9412/PROG8170-23S-Sec1-AS2",
+    "icon": "./assets/images/project/csharp.jpg",
+    "title": "Triangle Solver Test Project",
+    "desc": "This is the project for the Assignment 2 of PROG8170-23S-Sec1-Software Quality Assurance Technology, to test a console program via NUnit framework."
+  },
+  {
+    "link": "https://github.com/sliu9412/PROG8150-23W-Sec1-User-Interface-Design-Principles",
+    "icon": "./assets/images/project/xd.jpg",
+    "title": "Design Applications of PROG8150-23W",
+    "desc": "This is the project for the main applications of User Interface Design Principles cource."
+  },
+  {
+    "link": "https://github.com/sliu9412/PROG8470-23W-Sec1-2-Mobile-Application-Development",
+    "icon": "./assets/images/project/swift.jpg",
+    "title": "Mobile Applications of PROG8470-23W",
+    "desc": "This is the project for the main applications of IOS application cource of program PROG8470-23W."
+  }
+]

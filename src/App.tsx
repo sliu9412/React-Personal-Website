@@ -4,6 +4,7 @@ import "./App.scss";
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import AboutPage from "./Pages/AboutPage";
+import ProjectPage from "./Pages/ProjectPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/Home" element={<HomePage />} />
           <Route path="/About" element={<AboutPage />} />
+          <Route path="/Projects" element={<ProjectPage />} />
         </Routes>
       </main>
       <footer></footer>
