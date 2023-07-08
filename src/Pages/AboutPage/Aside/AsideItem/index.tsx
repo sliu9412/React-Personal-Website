@@ -23,7 +23,7 @@ function AsideItem(props: IAsideItemProps) {
             window.location.href = props.anchor;
           }}
         >
-          <ListItemIcon>{props.children}</ListItemIcon>
+          <ListItemIcon sx={{ color: "#fff" }}>{props.children}</ListItemIcon>
           <ListItemText primary={props.headingName} />
         </ListItemButton>
       </ListItem>
