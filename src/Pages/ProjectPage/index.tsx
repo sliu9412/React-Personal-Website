@@ -13,6 +13,7 @@ export interface IProjectItem {
 function ProjectPage() {
   const [projectItems, setItems] = useState<IProjectItem[]>([]);
   const [displayedItems, setDsiplayedItems] = useState<IProjectItem[]>([]);
+  const [currentPage, setCurrentPage] = useState<number>(1);
 
   useEffect(() => {
     fetch("./assets/json/projects.json")
@@ -32,6 +33,8 @@ function ProjectPage() {
           })}
         </Grid>
         <Paginator
+          currentPage={currentPage}
+          setCurrentPage={setCurrentPage}
           setDisplayeditems={setDsiplayedItems}
           dataSource={projectItems}
         />

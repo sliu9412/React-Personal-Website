@@ -1,0 +1,42 @@
+[
+  {
+    "link": "https://sliu9412.notion.site/Create-ASP-NET-API-App-29abdc4cd5184e91a387a102d6f86a23",
+    "title": "Create ASP.NET API App",
+    "desc": "The process to create a simple ASP.NET API project, and the configuration of In-memory database (for testing) and local MS Mysql Server.",
+    "time": "2023-07-08",
+    "category": ".Net",
+    "icon": "./assets/images/project/csharp.jpg"
+  },
+  {
+    "link": "https://sliu9412.notion.site/How-to-Navigate-to-Different-viewControllers-via-Dynamic-Table-Cell-30be72a542824b479c03cc9d85739053?pvs=4",
+    "title": "How to Navigate to Different viewControllers via Dynamic Table Cell?",
+    "desc": "Navigate to different viewControllers programmatically, instead of using the segue previously on the storyboard.",
+    "time": "2023-04-14",
+    "category": "IOS",
+    "icon": "./assets/images/project/swift.jpg"
+  },
+  {
+    "link": "https://sliu9412.notion.site/The-Way-to-Fix-the-Project-if-It-Doesn-t-Check-the-Coredata-When-Creating-the-Project-700fa6c4c3be429eb48885bbdbc13f65?pvs=4",
+    "title": "The Way to Fix the Project if It doesn't Check the Coredata When Creating the Project",
+    "desc": "This article is testing to create two project, one has initialized a core data file, another hasn’t, the main different is the 'Appdelegate' file in the folder.",
+    "time": "2023-03-25",
+    "category": "IOS",
+    "icon": "./assets/images/project/swift.jpg"
+  },
+  {
+    "link": "https://sliu9412.notion.site/Replace-Navigation-Controller-s-Left-Button-14f896068ddf4bdb8a98080e663d269b?pvs=4",
+    "title": "Replace Navigation Controller's Left Button",
+    "desc": "In UIKit, if using the Navigation controller, the default button or icon of the left slot in the navigation bar is arrow, this article will display the way to replace it by customized button with action.",
+    "time": "2023-03-21",
+    "category": "IOS",
+    "icon": "./assets/images/project/swift.jpg"
+  },
+  {
+    "link": "https://sliu9412.notion.site/Basic-usage-of-React-Redux-c1084bd312234a019c6ae13bca9e5529?pvs=4",
+    "title": "Basic usage of React Redux",
+    "desc": "Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces. This is an example for react-redux",
+    "time": "2023-01-22",
+    "category": "React",
+    "icon": "./assets/images/project/react.jpg"
+  }
+]

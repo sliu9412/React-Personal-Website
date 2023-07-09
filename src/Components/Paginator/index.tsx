@@ -1,10 +1,11 @@
 import { Stack, Pagination } from "@mui/material";
 import { PaginatorCore } from "./PaginatorCore";
-import { IProjectItem } from "../../Pages/ProjectPage";
 
 interface IPaginatorProps {
   dataSource: any[];
-  setDisplayeditems: React.Dispatch<React.SetStateAction<IProjectItem[]>>;
+  setDisplayeditems: React.Dispatch<React.SetStateAction<any[]>>;
+  currentPage: number;
+  setCurrentPage: React.Dispatch<React.SetStateAction<number>>;
 }
 
 function Paginator(props: IPaginatorProps) {
@@ -13,11 +14,13 @@ function Paginator(props: IPaginatorProps) {
   const changePageHandler = (page: number) => {
     const displayedItems = paginatorCore.getPage(page);
     props.setDisplayeditems(displayedItems);
+    props.setCurrentPage(page);
   };
 
   return (
     <Stack alignItems="center">
       <Pagination
+        page={props.currentPage}
         onChange={(event, page) => {
           changePageHandler(page);
         }}
