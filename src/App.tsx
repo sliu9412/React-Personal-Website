@@ -6,11 +6,12 @@ import HomePage from "./Pages/HomePage";
 import AboutPage from "./Pages/AboutPage";
 import ProjectPage from "./Pages/ProjectPage";
 import ArticlePage from "./Pages/ArticlePage";
+import ContactPage from "./Pages/ContactPage";
 
 function App() {
   return (
     <div>
-      <HeaderNavigator></HeaderNavigator>
+      <HeaderNavigator />
       <main>
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -18,6 +19,7 @@ function App() {
           <Route path="/About" element={<AboutPage />} />
           <Route path="/Projects" element={<ProjectPage />} />
           <Route path="/Articles" element={<ArticlePage />} />
+          <Route path="/Contact" element={<ContactPage />} />
         </Routes>
       </main>
       <footer></footer>

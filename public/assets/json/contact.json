@@ -1,0 +1,13 @@
+{
+  "email": "sliu9412@conestogac.on.ca",
+  "phone": {
+    "tel": "6046904016",
+    "display": "(+1) 604-690-4016"
+  },
+  "github": "https://github.com/sliu9412",
+  "linkedin": "https://www.linkedin.com/in/sliu9412/",
+  "location": {
+    "embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2894.5708955492228!2d-80.54016709999999!3d43.4904247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf3e16f7fc83f%3A0x2bc7186404c8cc4f!2s649%20Albert%20St%2C%20Waterloo%2C%20ON%20N2L%203V5!5e0!3m2!1sen!2sca!4v1688925401804!5m2!1sen!2sca",
+    "info": "N2L 3V5, 649 Albert Street,<br />Waterloo, Ontario"
+  }
+}
