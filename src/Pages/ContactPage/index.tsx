@@ -51,7 +51,7 @@ function ContactPage() {
 
   return (
     <div className="contact-page">
-      <Container sx={{ py: 5 }} maxWidth={"md"}>
+      <Container sx={{ py: 5 }} maxWidth={"lg"}>
         <Grid container>
           <Grid xs={12} lg={6} item>
             {contact.email ? (
