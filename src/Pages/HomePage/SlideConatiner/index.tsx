@@ -1,33 +1,15 @@
-import React, { useEffect, useState } from "react";
+import { IHomePageProps } from "../IHome";
 import "./style.scss";
 
-function SlideContainer() {
-  interface ICaption {
-    backgroundImagePath: string;
-    mainCaption: string;
-    subCaption: string;
-    subCaption2: string;
-    subCaption2HTML: string;
-  }
-
-  const [caption, SetCaption] = useState<null | ICaption>(null);
-
-  useEffect(() => {
-    fetch("./assets/json/home.json")
-      .then((res) => res.json())
-      .then((data) => {
-        SetCaption(data.Caption as ICaption);
-      });
-  }, []);
+function SlideContainer(props: IHomePageProps) {
+  const caption = props.homepage.Caption;
 
   return (
     <div
       className="slide-container d-flex justify-content-center align-items-center"
-      style={
-        caption == null
-          ? {}
-          : { backgroundImage: "url(" + caption.backgroundImagePath + ")" }
-      }
+      style={{
+        backgroundImage: "url(" + caption.backgroundImagePath + ")",
+      }}
     >
       <div className="caption-box text-center">
         <p className="sub-caption">{caption?.subCaption}</p>

@@ -1,31 +1,15 @@
 import { Button, Container, Grid } from "@mui/material";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
-import React, { useEffect, useState } from "react";
-import "./style.scss";
 import HomeSectionHeading from "../../../Components/SectionHeading";
 import { useNavigate } from "react-router-dom";
+import { IHomePageProps } from "../IHome";
+import "./style.scss";
 
-export interface IAboutSection {
-  leftHTML: string;
-  rightImagePath: string;
-}
-
-function AboutSection() {
-  const [aboutSection, setaboutSection] = useState<IAboutSection | null>(null);
-
+function AboutSection(props: IHomePageProps) {
   const navigator = useNavigate();
-
   const moreButtonClickHandler = () => {
     navigator("/About");
   };
-
-  useEffect(() => {
-    fetch("./assets/json/home.json")
-      .then((res) => res.json())
-      .then((data) => {
-        setaboutSection(data.AboutMeSection as IAboutSection);
-      });
-  }, []);
 
   return (
     <div className="about-section my-lg-5">
@@ -35,12 +19,12 @@ function AboutSection() {
             <HomeSectionHeading heading="About Me" />
             <img
               className="img-fluid d-lg-none pb-3"
-              src={aboutSection == null ? "" : aboutSection.rightImagePath}
+              src={props.homepage.AboutMeSection.rightImagePath}
               alt="About Me"
             />
             <div
               dangerouslySetInnerHTML={{
-                __html: aboutSection == null ? "" : aboutSection.leftHTML,
+                __html: props.homepage.AboutMeSection.leftHTML,
               }}
             ></div>
             <div className="py-3 about-section-btn-wrap">
@@ -56,7 +40,7 @@ function AboutSection() {
           <Grid item xs={12} lg={5}>
             <img
               className="img-fluid d-none d-lg-block"
-              src={aboutSection == null ? "" : aboutSection.rightImagePath}
+              src={props.homepage.AboutMeSection.rightImagePath}
               alt="About Me"
             />
           </Grid>

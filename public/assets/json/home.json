@@ -9,5 +9,6 @@
   "AboutMeSection": {
     "leftHTML": "<p>As a postgraduate student in Mobile Solution Development at Conestoga College, I have gained a solid foundation in web development and possess extensive experience in developing responsive websites and applications. </p><p>My technical skills include expertise in HTML, CSS, TypeScript, JavaScript, C#, Python, PHP, Swift, and SQL, while Git, Visual Paradigm, Adobe Photoshop, Illustrator, and XD are also familiar software in my study and work career.</p><p>Furthermore, I also have a deep understanding of system analysis and design, from requirements gathering to component development, which allows me to contribute effectively to development projects and collaborate towards successful outcomes. </p>",
     "rightImagePath": "./assets/images/Avator.jpg"
-  }
+  },
+  "Footer": "github.com/sliu9412 All Rights Reserved."
 }
