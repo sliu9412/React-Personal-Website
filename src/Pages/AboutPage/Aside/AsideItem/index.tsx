@@ -20,7 +20,8 @@ function AsideItem(props: IAsideItemProps) {
       <ListItem className="list-item" disablePadding>
         <ListItemButton
           onClick={() => {
-            window.location.href = props.anchor;
+            const anchor = document.querySelector(props.anchor);
+            anchor?.scrollIntoView();
           }}
         >
           <ListItemIcon sx={{ color: "#fff" }}>{props.children}</ListItemIcon>
